@@ -3,14 +3,33 @@
 @import "compass/css3";
 
 @font-face {
-  font-family: DeliciousRoman;
-  src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
-  font-weight:400;
+  font-family: 'Istok Web';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Istok Web Italic'), local('IstokWeb-Italic'), url('http://themes.googleusercontent.com/static/fonts/istokweb/v4/8-xqDtEk6sZ61magDpsV8WOb2gHztoQeulij-1lvl-8.woff') format('woff');
+}
+@font-face {
+  font-family: 'Istok Web';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Istok Web Bold Italic'), local('IstokWeb-BoldItalic'), url('http://themes.googleusercontent.com/static/fonts/istokweb/v4/ycQ3g52ELrh3o_HYCNNUw1RROVH9Vvc8xHnAGvvgPQc.woff') format('woff');
+}
+@font-face {
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Istok Web Bold'), local('IstokWeb-Bold'), url('http://themes.googleusercontent.com/static/fonts/istokweb/v4/2koEo4AKFSvK4B52O_MwaoraN7vELC11_xip9Rz-hMs.woff') format('woff');
+}
+@font-face {
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Istok Web Regular'), local('IstokWeb-Regular'), url('http://themes.googleusercontent.com/static/fonts/istokweb/v4/EyYQiCAfMk0ApvfCJfs4nD8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
 
 body {
   background: #ececec;
-  font-family: 'DeliciousRoman', Helvetica, Arial, sans-serif;
+  font-family: 'Istok Web', Helvetica, Arial, sans-serif;
   font-size: 1em;
   color: #222;
   @include text-shadow(0 1px 0 #fff);
@@ -103,6 +122,15 @@ hgroup.head {
 }
 
 .aboutblog {
+  .avatar {
+    img {
+      float: left;
+      background: #bbb;
+      margin-right: 25px;
+      @include border-radius(70px);
+      @include box-shadow(1px 1px 2px #666 inset);
+    }
+  }
   .promo {
     float: left;
     width: 128px;
@@ -112,23 +140,38 @@ hgroup.head {
   }
 }
 
-.projekt {
-  .portfolio {
-    float: left;
-    width: 128px;
-    height: 128px;
-    margin-right: 25px;
-    background: url(../images/promotion.png) no-repeat left top;
+section {
+  hgroup {
+    text-align: center;
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 1em;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
   }
 }
 
-
-.about {
-  .me {
-    padding: 10px;
-    background: #bbb;
-    @include border-radius(120px);
-    @include box-shadow(1px 1px 2px #333 inset);
+.projekt {
+  article {
+    .item {
+      float: left;
+      width: 270px;
+      height: 400px;
+      background: #ccc;
+      margin: 0px 15px;
+    }
+  &:after {
+      content: '.';
+      display: block;
+      clear: both;
+      visibility: hidden;
+      height: 0;
+    }
   }
 }
 

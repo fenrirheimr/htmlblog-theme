@@ -64,33 +64,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @font-face {
-  font-family: DeliciousRoman;
-  src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+  font-family: 'Istok Web';
+  font-style: italic;
   font-weight: 400;
+  src: local("Istok Web Italic"), local("IstokWeb-Italic"), url("http://themes.googleusercontent.com/static/fonts/istokweb/v4/8-xqDtEk6sZ61magDpsV8WOb2gHztoQeulij-1lvl-8.woff") format("woff");
 }
 
-/* line 11, ../scss/screen.scss */
+@font-face {
+  font-family: 'Istok Web';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Istok Web Bold Italic"), local("IstokWeb-BoldItalic"), url("http://themes.googleusercontent.com/static/fonts/istokweb/v4/ycQ3g52ELrh3o_HYCNNUw1RROVH9Vvc8xHnAGvvgPQc.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Istok Web Bold"), local("IstokWeb-Bold"), url("http://themes.googleusercontent.com/static/fonts/istokweb/v4/2koEo4AKFSvK4B52O_MwaoraN7vELC11_xip9Rz-hMs.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Istok Web Regular"), local("IstokWeb-Regular"), url("http://themes.googleusercontent.com/static/fonts/istokweb/v4/EyYQiCAfMk0ApvfCJfs4nD8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+
+/* line 30, ../scss/screen.scss */
 body {
   background: #ececec;
-  font-family: 'DeliciousRoman', Helvetica, Arial, sans-serif;
+  font-family: 'Istok Web', Helvetica, Arial, sans-serif;
   font-size: 1em;
   color: #222;
   text-shadow: 0 1px 0 white;
 }
 
-/* line 19, ../scss/screen.scss */
+/* line 38, ../scss/screen.scss */
 p {
   margin: 0 0 18px;
   line-height: 1.3;
 }
 
-/* line 24, ../scss/screen.scss */
+/* line 43, ../scss/screen.scss */
 .wrapper {
   width: 900px;
   margin: 0 auto;
 }
 
-/* line 29, ../scss/screen.scss */
+/* line 48, ../scss/screen.scss */
 header {
   padding: 22px 0 0;
   border-bottom: 4px solid #bbb;
@@ -100,12 +122,12 @@ header {
   box-shadow: 0 1px 0 white;
 }
 
-/* line 34, ../scss/screen.scss */
+/* line 53, ../scss/screen.scss */
 #main-nav {
   display: inline-block;
   padding-bottom: 10px;
 }
-/* line 38, ../scss/screen.scss */
+/* line 57, ../scss/screen.scss */
 #main-nav ul {
   border: 0 none;
   line-height: 2em;
@@ -114,7 +136,7 @@ header {
   padding: 0;
   font-size: 1.3em;
 }
-/* line 45, ../scss/screen.scss */
+/* line 64, ../scss/screen.scss */
 #main-nav ul li {
   display: inline;
   float: left;
@@ -126,26 +148,26 @@ header {
   white-space: nowrap;
   text-shadow: 0 1px 0 white;
 }
-/* line 55, ../scss/screen.scss */
+/* line 74, ../scss/screen.scss */
 #main-nav ul li a {
   color: #000;
   text-decoration: none;
 }
-/* line 60, ../scss/screen.scss */
+/* line 79, ../scss/screen.scss */
 #main-nav ul li:first-child, #main-nav ul li.first {
   padding-left: 0;
 }
-/* line 62, ../scss/screen.scss */
+/* line 81, ../scss/screen.scss */
 #main-nav ul .curr a {
   color: #d40408;
 }
 
-/* line 67, ../scss/screen.scss */
+/* line 86, ../scss/screen.scss */
 .social {
   float: right;
   margin-top: 10px;
 }
-/* line 70, ../scss/screen.scss */
+/* line 89, ../scss/screen.scss */
 .social a {
   display: inline-block;
   width: 24px;
@@ -153,28 +175,28 @@ header {
   margin-left: 7px;
   background: url(../images/social.png) no-repeat left top;
 }
-/* line 76, ../scss/screen.scss */
+/* line 95, ../scss/screen.scss */
 .social a.fb {
   background-position: 0 0;
 }
-/* line 77, ../scss/screen.scss */
+/* line 96, ../scss/screen.scss */
 .social a.tw {
   background-position: -26px 0;
 }
-/* line 78, ../scss/screen.scss */
+/* line 97, ../scss/screen.scss */
 .social a.gp {
   background-position: -52px 0;
 }
-/* line 79, ../scss/screen.scss */
+/* line 98, ../scss/screen.scss */
 .social a.vk {
   background-position: -78px 0;
 }
-/* line 80, ../scss/screen.scss */
+/* line 99, ../scss/screen.scss */
 .social a.rss {
   background-position: -104px 0;
 }
 
-/* line 83, ../scss/screen.scss */
+/* line 102, ../scss/screen.scss */
 hgroup.head, .aboutblog, .about, .projekt {
   margin-top: 30px;
   border-bottom: 1px solid #ddd;
@@ -184,7 +206,7 @@ hgroup.head, .aboutblog, .about, .projekt {
   box-shadow: 0 1px 0 white;
 }
 
-/* line 90, ../scss/screen.scss */
+/* line 109, ../scss/screen.scss */
 hgroup.head h1, hgroup.head h2 {
   font-size: 4em;
   font-weight: bold;
@@ -193,14 +215,30 @@ hgroup.head h1, hgroup.head h2 {
   padding-bottom: 3px;
   text-shadow: 0 1px 1px white;
 }
-/* line 98, ../scss/screen.scss */
+/* line 117, ../scss/screen.scss */
 hgroup.head h2 {
   font-size: 1.4em;
   font-weight: lighter;
   margin-top: 20px;
 }
 
-/* line 106, ../scss/screen.scss */
+/* line 126, ../scss/screen.scss */
+.aboutblog .avatar img {
+  float: left;
+  background: #bbb;
+  margin-right: 25px;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -o-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -khtml-border-radius: 70px;
+  border-radius: 70px;
+  -moz-box-shadow: 1px 1px 2px #666666 inset;
+  -webkit-box-shadow: 1px 1px 2px #666666 inset;
+  -o-box-shadow: 1px 1px 2px #666666 inset;
+  box-shadow: 1px 1px 2px #666666 inset;
+}
+/* line 134, ../scss/screen.scss */
 .aboutblog .promo {
   float: left;
   width: 128px;
@@ -209,27 +247,36 @@ hgroup.head h2 {
   background: url(../images/promotion.png) no-repeat left top;
 }
 
-/* line 116, ../scss/screen.scss */
-.projekt .portfolio {
-  float: left;
-  width: 128px;
-  height: 128px;
-  margin-right: 25px;
-  background: url(../images/promotion.png) no-repeat left top;
+/* line 144, ../scss/screen.scss */
+section hgroup {
+  text-align: center;
+}
+/* line 146, ../scss/screen.scss */
+section hgroup h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 151, ../scss/screen.scss */
+section hgroup h2 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-/* line 127, ../scss/screen.scss */
-.about .me {
-  padding: 10px;
-  background: #bbb;
-  -moz-border-radius: 120px;
-  -webkit-border-radius: 120px;
-  -o-border-radius: 120px;
-  -ms-border-radius: 120px;
-  -khtml-border-radius: 120px;
-  border-radius: 120px;
-  -moz-box-shadow: 1px 1px 2px #333333 inset;
-  -webkit-box-shadow: 1px 1px 2px #333333 inset;
-  -o-box-shadow: 1px 1px 2px #333333 inset;
-  box-shadow: 1px 1px 2px #333333 inset;
+/* line 161, ../scss/screen.scss */
+.projekt article .item {
+  float: left;
+  width: 270px;
+  height: 400px;
+  background: #ccc;
+  margin: 0px 15px;
+}
+/* line 168, ../scss/screen.scss */
+.projekt article:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
 }
