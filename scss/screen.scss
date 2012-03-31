@@ -74,6 +74,7 @@ header {
       a {
         color: #000;
         text-decoration: none;
+        &:hover {color: #d40408;} 
       }
     }
     li:first-child, li.first {padding-left: 0;}
@@ -161,9 +162,16 @@ section {
     .item {
       float: left;
       width: 270px;
-      height: 400px;
-      background: #ccc;
-      margin: 0px 15px;
+      height: 270px;
+      margin: 0 15px 20px;
+      @include border-radius(140px);
+      @include box-shadow(1px 1px 2px #333 inset);
+      img {
+        @include border-radius(140px);
+        opacity: 0.5;
+        &:hover {opacity: 1;}
+      }
+      &:hover {@include box-shadow(0px 0px 1px #333);} 
     }
   &:after {
       content: '.';
