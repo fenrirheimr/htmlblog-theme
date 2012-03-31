@@ -39,7 +39,7 @@ p {
   margin: 0 0 18px;
   line-height: 1.3;
 }
-
+a {color:#307EB6;}
 .wrapper {
   width: 900px;
   margin: 0 auto;
@@ -183,7 +183,39 @@ section {
   }
 }
 
-
+#widjets {
+  article {
+    float: left;
+    width: 270px;
+    margin: 20px 15px;
+    ul {
+      li {
+        padding-bottom: 6px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #bbb;
+        @include box-shadow(0 1px 0 #fff);
+        a {
+          display: inline-block;          
+          &:hover {color: #d40408;}
+        }
+        time {
+          color: #aaa;
+          font: 10px monospace;
+          display: block;
+          margin-left: 13px;
+        }
+      }
+    }
+    
+  }
+  &:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+  }
+}
 
 
 
