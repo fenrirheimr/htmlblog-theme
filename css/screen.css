@@ -1,4 +1,4 @@
-/* line 17, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,118 +20,91 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../var/lib/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-@font-face {
-  font-family: 'Istok Web';
-  font-style: italic;
-  font-weight: 400;
-  src: local("Istok Web Italic"), local("IstokWeb-Italic"), url("http://themes.googleusercontent.com/static/fonts/istokweb/v4/8-xqDtEk6sZ61magDpsV8WOb2gHztoQeulij-1lvl-8.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Istok Web';
-  font-style: italic;
-  font-weight: 700;
-  src: local("Istok Web Bold Italic"), local("IstokWeb-BoldItalic"), url("http://themes.googleusercontent.com/static/fonts/istokweb/v4/ycQ3g52ELrh3o_HYCNNUw1RROVH9Vvc8xHnAGvvgPQc.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Istok Web';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Istok Web Bold"), local("IstokWeb-Bold"), url("http://themes.googleusercontent.com/static/fonts/istokweb/v4/2koEo4AKFSvK4B52O_MwaoraN7vELC11_xip9Rz-hMs.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Istok Web';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Istok Web Regular"), local("IstokWeb-Regular"), url("http://themes.googleusercontent.com/static/fonts/istokweb/v4/EyYQiCAfMk0ApvfCJfs4nD8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
-}
-
-/* line 30, ../scss/screen.scss */
+/* line 5, ../scss/screen.scss */
 body {
   background: #ececec;
-  font-family: 'Istok Web', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
   font-size: 1em;
   color: #222;
   text-shadow: 0 1px 0 white;
 }
 
-/* line 38, ../scss/screen.scss */
+/* line 13, ../scss/screen.scss */
 p {
   margin: 0 0 18px;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
-/* line 42, ../scss/screen.scss */
+/* line 17, ../scss/screen.scss */
 a {
   color: #307EB6;
 }
 
-/* line 43, ../scss/screen.scss */
+/* line 18, ../scss/screen.scss */
 .wrapper {
   width: 900px;
   margin: 0 auto;
 }
 
-/* line 48, ../scss/screen.scss */
+/* line 23, ../scss/screen.scss */
 header {
   padding: 22px 0 0;
   border-bottom: 4px solid #bbb;
-  -webkit-box-shadow: 0 1px 0 white;
   -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
+  -o-box-shadow: 0 1px 0 white;
   box-shadow: 0 1px 0 white;
 }
 
-/* line 53, ../scss/screen.scss */
+/* line 28, ../scss/screen.scss */
 #main-nav {
   display: inline-block;
   padding-bottom: 10px;
 }
-/* line 57, ../scss/screen.scss */
+/* line 31, ../scss/screen.scss */
 #main-nav ul {
   border: 0 none;
   line-height: 2em;
@@ -140,42 +113,52 @@ header {
   padding: 0;
   font-size: 1.3em;
 }
-/* line 64, ../scss/screen.scss */
+/* line 38, ../scss/screen.scss */
 #main-nav ul li {
   display: inline;
   float: left;
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
   white-space: nowrap;
   text-shadow: 0 1px 0 white;
 }
-/* line 74, ../scss/screen.scss */
+/* line 47, ../scss/screen.scss */
 #main-nav ul li a {
   color: #000;
   text-decoration: none;
 }
-/* line 77, ../scss/screen.scss */
+/* line 50, ../scss/screen.scss */
 #main-nav ul li a:hover {
   color: #d40408;
 }
-/* line 80, ../scss/screen.scss */
+/* line 53, ../scss/screen.scss */
 #main-nav ul li:first-child, #main-nav ul li.first {
   padding-left: 0;
 }
-/* line 82, ../scss/screen.scss */
+/* line 55, ../scss/screen.scss */
 #main-nav ul .curr a {
   color: #d40408;
 }
+/* line 57, ../scss/screen.scss */
+#main-nav ul .logo {
+  background: #333;
+  padding: 0 10px;
+  padding-left: 10px !important;
+}
+/* line 61, ../scss/screen.scss */
+#main-nav ul .logo a {
+  color: #eee;
+  text-shadow: 0 1px 0 black;
+}
 
-/* line 87, ../scss/screen.scss */
+/* line 69, ../scss/screen.scss */
 .social {
   float: right;
   margin-top: 10px;
 }
-/* line 90, ../scss/screen.scss */
+/* line 72, ../scss/screen.scss */
 .social a {
   display: inline-block;
   width: 24px;
@@ -183,37 +166,37 @@ header {
   margin-left: 7px;
   background: url(../images/social.png) no-repeat left top;
 }
-/* line 96, ../scss/screen.scss */
+/* line 78, ../scss/screen.scss */
 .social a.fb {
   background-position: 0 0;
 }
-/* line 97, ../scss/screen.scss */
+/* line 79, ../scss/screen.scss */
 .social a.tw {
   background-position: -26px 0;
 }
-/* line 98, ../scss/screen.scss */
+/* line 80, ../scss/screen.scss */
 .social a.gp {
   background-position: -52px 0;
 }
-/* line 99, ../scss/screen.scss */
+/* line 81, ../scss/screen.scss */
 .social a.vk {
   background-position: -78px 0;
 }
-/* line 100, ../scss/screen.scss */
+/* line 82, ../scss/screen.scss */
 .social a.rss {
   background-position: -104px 0;
 }
 
-/* line 103, ../scss/screen.scss */
-hgroup.head, .aboutblog, .about, .projekt {
-  margin-top: 30px;
+/* line 86, ../scss/screen.scss */
+hgroup.head {
   border-bottom: 1px solid #ddd;
-  -webkit-box-shadow: 0 1px 0 white;
   -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
+  -o-box-shadow: 0 1px 0 white;
   box-shadow: 0 1px 0 white;
+  margin-top: 30px;
 }
-
-/* line 110, ../scss/screen.scss */
+/* line 90, ../scss/screen.scss */
 hgroup.head h1, hgroup.head h2 {
   font-size: 4em;
   font-weight: bold;
@@ -222,28 +205,30 @@ hgroup.head h1, hgroup.head h2 {
   padding-bottom: 3px;
   text-shadow: 0 1px 1px white;
 }
-/* line 118, ../scss/screen.scss */
+/* line 98, ../scss/screen.scss */
 hgroup.head h2 {
   font-size: 1.4em;
   font-weight: lighter;
-  margin-top: 20px;
+  margin: 20px;
 }
 
-/* line 127, ../scss/screen.scss */
+/* line 107, ../scss/screen.scss */
 .aboutblog .avatar img {
   float: left;
   background: #bbb;
   margin-right: 25px;
-  -webkit-border-radius: 70px;
   -moz-border-radius: 70px;
-  -ms-border-radius: 70px;
+  -webkit-border-radius: 70px;
   -o-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -khtml-border-radius: 70px;
   border-radius: 70px;
-  -webkit-box-shadow: 1px 1px 2px #666666 inset;
   -moz-box-shadow: 1px 1px 2px #666666 inset;
+  -webkit-box-shadow: 1px 1px 2px #666666 inset;
+  -o-box-shadow: 1px 1px 2px #666666 inset;
   box-shadow: 1px 1px 2px #666666 inset;
 }
-/* line 135, ../scss/screen.scss */
+/* line 115, ../scss/screen.scss */
 .aboutblog .promo {
   float: left;
   width: 128px;
@@ -252,58 +237,71 @@ hgroup.head h2 {
   background: url(../images/promotion.png) no-repeat left top;
 }
 
-/* line 145, ../scss/screen.scss */
+/* line 124, ../scss/screen.scss */
+section {
+  margin: 15px 0px;
+  border-bottom: 1px solid #ddd;
+  -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
+  -o-box-shadow: 0 1px 0 white;
+  box-shadow: 0 1px 0 white;
+}
+/* line 128, ../scss/screen.scss */
 section hgroup {
   text-align: center;
 }
-/* line 147, ../scss/screen.scss */
+/* line 130, ../scss/screen.scss */
 section hgroup h1 {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 152, ../scss/screen.scss */
+/* line 135, ../scss/screen.scss */
 section hgroup h2 {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-/* line 162, ../scss/screen.scss */
+/* line 145, ../scss/screen.scss */
 .projekt article .item {
   float: left;
-  width: 270px;
-  height: 270px;
-  margin: 0 15px 20px;
-  -webkit-border-radius: 140px;
+  width: 200px;
+  height: 200px;
+  margin: 0 10px 20px;
   -moz-border-radius: 140px;
-  -ms-border-radius: 140px;
+  -webkit-border-radius: 140px;
   -o-border-radius: 140px;
+  -ms-border-radius: 140px;
+  -khtml-border-radius: 140px;
   border-radius: 140px;
-  -webkit-box-shadow: 1px 1px 2px #333333 inset;
   -moz-box-shadow: 1px 1px 2px #333333 inset;
+  -webkit-box-shadow: 1px 1px 2px #333333 inset;
+  -o-box-shadow: 1px 1px 2px #333333 inset;
   box-shadow: 1px 1px 2px #333333 inset;
 }
-/* line 169, ../scss/screen.scss */
+/* line 152, ../scss/screen.scss */
 .projekt article .item img {
-  -webkit-border-radius: 140px;
   -moz-border-radius: 140px;
-  -ms-border-radius: 140px;
+  -webkit-border-radius: 140px;
   -o-border-radius: 140px;
+  -ms-border-radius: 140px;
+  -khtml-border-radius: 140px;
   border-radius: 140px;
   opacity: 0.5;
 }
-/* line 172, ../scss/screen.scss */
+/* line 155, ../scss/screen.scss */
 .projekt article .item img:hover {
   opacity: 1;
 }
-/* line 174, ../scss/screen.scss */
+/* line 157, ../scss/screen.scss */
 .projekt article .item:hover {
-  -webkit-box-shadow: 0px 0px 1px #333333;
   -moz-box-shadow: 0px 0px 1px #333333;
+  -webkit-box-shadow: 0px 0px 1px #333333;
+  -o-box-shadow: 0px 0px 1px #333333;
   box-shadow: 0px 0px 1px #333333;
 }
-/* line 176, ../scss/screen.scss */
+/* line 159, ../scss/screen.scss */
 .projekt article:after {
   content: '.';
   display: block;
@@ -312,37 +310,58 @@ section hgroup h2 {
   height: 0;
 }
 
-/* line 187, ../scss/screen.scss */
+/* line 170, ../scss/screen.scss */
 #widjets article {
-  float: left;
-  width: 270px;
-  margin: 20px 15px;
+  margin: 20px 0px;
 }
-/* line 192, ../scss/screen.scss */
+/* line 173, ../scss/screen.scss */
 #widjets article ul li {
-  padding-bottom: 6px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #bbb;
-  -webkit-box-shadow: 0 1px 0 white;
-  -moz-box-shadow: 0 1px 0 white;
-  box-shadow: 0 1px 0 white;
+  width: 240px;
+  min-height: 61px;
+  float: left;
+  padding: 15px 0px 15px 50px;
+  margin-right: 10px;
+  position: relative;
+  background: url(../images/category.png) no-repeat;
 }
-/* line 197, ../scss/screen.scss */
+/* line 184, ../scss/screen.scss */
 #widjets article ul li a {
   display: inline-block;
+  line-height: 1.5;
+  position: relative;
+  z-index: 999;
 }
-/* line 199, ../scss/screen.scss */
+/* line 189, ../scss/screen.scss */
 #widjets article ul li a:hover {
   color: #d40408;
 }
-/* line 201, ../scss/screen.scss */
+/* line 191, ../scss/screen.scss */
 #widjets article ul li time {
   color: #aaa;
   font: 10px monospace;
   display: block;
-  margin-left: 13px;
 }
-/* line 211, ../scss/screen.scss */
+/* line 198, ../scss/screen.scss */
+#widjets article ul .without-category {
+  background-position: left 19px;
+}
+/* line 199, ../scss/screen.scss */
+#widjets article ul .wordpress {
+  background-position: left -71px;
+}
+/* line 200, ../scss/screen.scss */
+#widjets article ul .blogovodstvo {
+  background-position: left -161px;
+}
+/* line 201, ../scss/screen.scss */
+#widjets article ul .work {
+  background-position: left -251px;
+}
+/* line 202, ../scss/screen.scss */
+#widjets article ul .review {
+  background-position: left -251px;
+}
+/* line 205, ../scss/screen.scss */
 #widjets:after {
   content: '.';
   display: block;
