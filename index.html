@@ -1,136 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
-       Remove this if you use the .htaccess -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-  <title>htmlblog v.5</title>
-  <meta name="description" content="" />
-  <meta name="author" content="fenris" />
-
-  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
-
-  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  
-  <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
-  <!--[if IE]>
-      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <![endif]-->  
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
-</head>
-
-<body class="main">
-<div class="wrapper">
-    <header>
-    	<nav id="main-nav">
-			<ul>
-				<li><a href="simple-page.html">Об авторе</a></li>
-				<li><a href="#">Проекты</a></li>
-				<li><a href="#">Статьи</a></li>
-				<li><a href="#">Портфолио</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-		</nav>
-		<aside class="social">
-			<a class="fb" href=""></a><a class="tw" href=""></a><a class="gp" href=""></a><a class="vk" href=""></a><a class="rss" href=""></a>
-		</aside>
-    </header>
-
-    <hgroup class="head">
-    	<h1>&lt;html /&gt; blog</h1>
-    	<h2>О правильной верстке сайтов, Compass'е, SCSS и работе с Django Templates</h2>
-    </hgroup>
-    
-    <section class="aboutblog">
-    	<article>
-    		<div class="avatar"><img src="images/avatar.png" alt="" /></div>
-    		<p>Всем привет. Меня зовут Владимир Глушков и я занимаюсь созданием сайтов на Wordpress, Drupal и еще одной, 
-    			название для которой мы еще не придумали.</p>
-    		<p>Я достаточно долго писал о Вордпрессе и иже с ним, но надо развиваться, изучать что-то новое, по-этому 
-    		статьи про Вордпрес я писать, можно сказать, прекращаю. Это не значит что их не будет совсем, но станет
-    		намного меньше.</p>
-    	</article>
-    	<aside></aside>
-    </section>
-    
-    <section id="widjets">
-    	<hgroup>
-			<h1>Последние посты</h1>
-			<h2>Код - это поэзия</h2>
-		</hgroup>
-    	<article class="lastpost">
-    		<ul>
-    			<li class="without-category">
-    				<time datetime="24-12-2012" pubdate="pubdate">24 12 2012</time>
-    				<a href="">Холивар?</a>
-    			</li>
-    			<li class="wordpress">
-    				<time datetime="04-07-2011" pubdate="pubdate">04 07 2011</time>
-    				<a href="">Использование php в виджетах WordPress</a>
-    			</li>
-    			<li class="without-category">
-    				<time datetime="04-07-2011" pubdate="pubdate">04-07-2011</time>
-    				<a href="">Марафон 30000 за 60 дней</a>
-    			</li>
-    			<li class="blogovodstvo">
-    				<time datetime="04-07-2011" pubdate="pubdate">04-07-2011</time>
-    				<a href="">Обмен ссылками. Да опять</a>
-    			</li>
-    			<li class="work">
-    				<time datetime="04-07-2011" pubdate="pubdate">04-07-2011</time>
-    				<a href="">Делимся опытом или способы защиты от не честного клиента</a>
-    			</li>
-    			<li class="without-category">
-    				<time datetime="04-07-2011" pubdate="pubdate">04-07-2011</time>
-    				<a href="">Удивительное наблюдение</a>
-    			</li>
-    			<li class="review">
-    				<time datetime="04-07-2011" pubdate="pubdate">04-07-2011</time>
-    				<a href="">IE и CSS3</a>
-    			</li>
-    			<li class="blogovodstvo">
-    				<time datetime="04-07-2011" pubdate="pubdate">04-07-2011</time>
-    				<a href="">Обмен ссылками. Да опять</a>
-    			</li>
-    			<li class="work">
-    				<time datetime="04-07-2011" pubdate="pubdate">04-07-2011</time>
-    				<a href="">Делимся опытом или способы защиты от не честного клиента</a>
-    			</li>
-    		</ul>
-    	</article>
-    </section>
-    
-    <section class="projekt">
-    	<hgroup>
-			<h1>Портфолио</h1>
-			<h2>Последние работы, которые не стыдно показать</h2>
-		</hgroup>
-    	<article>
-    		<div class="item"><img src="images/w1.png" alt="" /></div>
-			<div class="item"><img src="images/w2.png" alt="" /></div>
-			<div class="item"><img src="images/w3.png" alt="" /></div>
-			<div class="item"><img src="images/w2.png" alt="" /></div>
-			<div class="item"><img src="images/w1.png" alt="" /></div>
-			<div class="item"><img src="images/w3.png" alt="" /></div>
-			<div class="item"><img src="images/w2.png" alt="" /></div>
-			<div class="item"><img src="images/w1.png" alt="" /></div>
-    	</article>
-    	<aside></aside>
-    </section>
-
-    <footer>
-     <span>&copy; 2008-2012 Владимир Глушков</span>
-     <a style="float: right;" href="http://www.w3.org/html/logo/">
-<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="77" height="30" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
-</a>
-    </footer>
-</div>
-</body>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>htmlblog v.5 Compass(SCSS) & HAML</title>
+    <meta content='' name='description' />
+    <meta content='fenris' name='author' />
+    <meta content='width=device-width; initial-scale=1.0' name='viewport' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link href='css/screen.css' media='screen, projection' rel='stylesheet' type='text/css' />
+    <link href='css/print.css' media='screen, projection' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,700&amp;subset=latin,cyrillic' media='screen, projection' rel='stylesheet' type='text/css' />
+  </head>
+  <body class='main'>
+    <div class='wrapper'>
+      <header>
+        <nav id='main'>
+          <ul>
+            <li>
+              <a href='simple-page.html'>Об авторе</a>
+            </li>
+            <li>
+              <a href='#'>Проекты</a>
+            </li>
+            <li>
+              <a href='#'>Статьи</a>
+            </li>
+            <li>
+              <a href='#'>Портфолио</a>
+            </li>
+            <li>
+              <a href='#'>Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <aside class='social'>
+          <a class='fb' href='#'></a>
+          <a class='tw' href='#'></a>
+          <a class='gp' href='#'></a>
+          <a class='vk' href='#'></a>
+          <a class='rss' href='#'></a>
+        </aside>
+      </header>
+      <hgroup class='head'>
+        <h1>&lt;html /&gt; blog</h1>
+        <h2>О правильной верстке сайтов, Compass'е, SCSS и работе с Django Templates</h2>
+      </hgroup>
+      <section class='aboutblog'>
+        <article>
+          <div class='avatar'>
+            <img alt='' src='images/avatar.png' />
+          </div>
+          <p>Всем привет. Меня зовут Владимир Глушков и я занимаюсь созданием сайтов на Wordpress, Drupal и еще одной, название для которой мы еще не придумали.</p>
+          <p>Я достаточно долго писал о Вордпрессе и иже с ним, но надо развиваться, изучать что-то новое, по-этому статьи про Вордпрес я писать, можно сказать, прекращаю. Это не значит что их не будет совсем, но станет намного меньше.</p>
+        </article>
+        <aside></aside>
+      </section>
+      <section id='widjets'>
+        <hgroup>
+          <h1>Последние посты</h1>
+          <h2>Код &ndash; это поэзия</h2>
+        </hgroup>
+        <article class='lastpost'>
+          <ul>
+            <li class='without-category'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>Холивар?</a>
+            </li>
+            <li class='wordpress'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>Использование php в виджетах WordPress</a>
+            </li>
+            <li class='without-category'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>Марафон 30000 за 60 дней</a>
+            </li>
+            <li class='blogovodstvo'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>Обмен ссылками. Да опять</a>
+            </li>
+            <li class='work'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>Делимся опытом или способы защиты от не честного клиента</a>
+            </li>
+            <li class='without-category'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>Удивительное наблюдение</a>
+            </li>
+            <li class='review'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>IE и CSS3</a>
+            </li>
+            <li class='blogovodstvo'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>Обмен ссылками. Да опять</a>
+            </li>
+            <li class='work'>
+              <time datetime='24-12-2012' pubdate='pubdate'>24 12 2012</time>
+              <a href='#'>Делимся опытом или способы защиты от не честного клиента</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class='projekt'>
+        <hgroup>
+          <h1>Портфолио</h1>
+          <h2>Последние работы, которые не стыдно показать</h2>
+        </hgroup>
+        <article>
+          <div class='item'>
+            <img alt='' src='images/w1.png' />
+          </div>
+          <div class='item'>
+            <img alt='' src='images/w2.png' />
+          </div>
+          <div class='item'>
+            <img alt='' src='images/w3.png' />
+          </div>
+          <div class='item'>
+            <img alt='' src='images/w2.png' />
+          </div>
+          <div class='item'>
+            <img alt='' src='images/w3.png' />
+          </div>
+          <div class='item'>
+            <img alt='' src='images/w1.png' />
+          </div>
+          <div class='item'>
+            <img alt='' src='images/w3.png' />
+          </div>
+          <div class='item'>
+            <img alt='' src='images/w2.png' />
+          </div>
+        </article>
+        <aside></aside>
+      </section>
+      <footer>
+        <span>&copy; 2008&ndash;2012 Владимир Глушков</span>
+      </footer>
+    </div>
+  </body>
 </html>

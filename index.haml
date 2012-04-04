@@ -1,0 +1,136 @@
+!!! 5
+%html
+  %head
+    %meta{:charset => "utf-8"}
+  
+    %title htmlblog v.5 Compass(SCSS) & HAML
+    
+    %meta{:name => "description", :content => ""}
+    %meta{:name => "author", :content => "fenris"}
+    %meta{:name => "viewport", :content => "width=device-width; initial-scale=1.0"}
+    
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  
+    %link{:type => "text/css",
+          :href  => "css/screen.css",
+          :media => "screen, projection",
+          :rel => "stylesheet"}
+  
+    %link{:type => "text/css",
+          :href  => "css/print.css",
+          :media => "screen, projection",
+          :rel => "stylesheet"}
+  
+    %link{:type => "text/css",
+          :href  => "http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,700&subset=latin,cyrillic",
+          :media => "screen, projection",
+          :rel => "stylesheet"}
+  
+  %body.main
+    .wrapper
+      %header
+        %nav#main
+          %ul
+            %li
+              %a{:href=>"simple-page.html"} Об авторе
+            %li
+              %a{:href=>"#"} Проекты
+            %li
+              %a{:href=>"#"} Статьи
+            %li
+              %a{:href=>"#"} Портфолио
+            %li
+              %a{:href=>"#"} Контакты
+
+        %aside.social
+          %a.fb{:href=>"#"}
+          %a.tw{:href=>"#"}
+          %a.gp{:href=>"#"}
+          %a.vk{:href=>"#"}
+          %a.rss{:href=>"#"}
+  
+      %hgroup.head
+        %h1 &lt;html /&gt; blog
+        %h2 О правильной верстке сайтов, Compass'е, SCSS и работе с Django Templates
+  
+      %section.aboutblog
+        %article
+          .avatar
+            %img{:src => "images/avatar.png", :alt => ""}
+      
+          %p Всем привет. Меня зовут Владимир Глушков и я занимаюсь созданием сайтов на Wordpress, Drupal и еще одной, название для которой мы еще не придумали.
+          %p Я достаточно долго писал о Вордпрессе и иже с ним, но надо развиваться, изучать что-то новое, по-этому статьи про Вордпрес я писать, можно сказать, прекращаю. Это не значит что их не будет совсем, но станет намного меньше.
+
+        %aside
+  
+      %section#widjets
+        %hgroup
+          %h1 Последние посты
+          %h2 Код &ndash; это поэзия
+
+        %article.lastpost
+          %ul
+            %li.without-category
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} Холивар?
+  
+            %li.wordpress
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} Использование php в виджетах WordPress
+  
+            %li.without-category
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} Марафон 30000 за 60 дней
+  
+            %li.blogovodstvo
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} Обмен ссылками. Да опять
+  
+            %li.work
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} Делимся опытом или способы защиты от не честного клиента
+  
+            %li.without-category
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} Удивительное наблюдение
+  
+            %li.review
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} IE и CSS3
+  
+            %li.blogovodstvo
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} Обмен ссылками. Да опять
+  
+            %li.work
+              %time{:datetime => "24-12-2012", :pubdate => "pubdate"} 24 12 2012
+              %a{:href=>"#"} Делимся опытом или способы защиты от не честного клиента
+  
+      %section.projekt
+        %hgroup
+          %h1 Портфолио
+          %h2 Последние работы, которые не стыдно показать
+  
+        %article
+          .item
+            %img{:src => "images/w1.png", :alt => ""}
+          .item
+            %img{:src => "images/w2.png", :alt => ""}
+          .item
+            %img{:src => "images/w3.png", :alt => ""}
+          .item
+            %img{:src => "images/w2.png", :alt => ""}
+          .item
+            %img{:src => "images/w3.png", :alt => ""}
+          .item
+            %img{:src => "images/w1.png", :alt => ""}
+          .item
+            %img{:src => "images/w3.png", :alt => ""}
+          .item
+            %img{:src => "images/w2.png", :alt => ""}
+  
+        %aside
+  
+      %footer
+        %span &copy; 2008&ndash;2012 Владимир Глушков
